@@ -9,7 +9,6 @@
     "lib": ["es2017", "esnext"],
     "module": "esnext",
     "moduleResolution": "node",
-    "noEmit": true,
     "noImplicitAny": true,
     "noImplicitThis": true,
     "paths": {
@@ -21,7 +20,8 @@
     "suppressImplicitAnyIndexErrors": true,
     "strict": true,
     "target": "esnext",
-    "baseUrl": "."
+    "baseUrl": ".",
+    "outDir": "dist"
   },
   "include": ["./src"]
 }

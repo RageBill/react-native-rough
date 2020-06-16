@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "yarn tsc src/**.ts --jsx \"react-native\" -outDir dist --esModuleInterop true --skipLibCheck",
+    "build": "tsc -p ./tsconfig.json",
     "prettify": "yarn prettier --write \"**/*.js\"",
     "test": "jest"
   },
